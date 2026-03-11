@@ -1,3 +1,20 @@
-testing/
-training/
 .vscode/
+
+# KITTI 2015 dataset (download separately)
+devkit/
+data_scene_flow/
+
+# vKITTI 2.0 dataset (download separately)
+vkitti_2.0.3_depth/
+vkitti_2.0.3_rgb/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Old root-level checkpoints (superseded by models/)
+denoiser*.pth
+
+# Poster and report source (not needed for code submission)
+poster/
+iccp2020_latex_template/
