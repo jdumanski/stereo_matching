@@ -13,7 +13,7 @@ __pycache__/
 *.pyc
 
 # Old root-level checkpoints (superseded by models/)
-denoiser*.pth
+/denoiser*.pth
 
 # Poster and report source (not needed for code submission)
 poster/
